@@ -67,20 +67,20 @@ Taurida National V.I. Vernadsky University (TNU), Crimea,  Ukraine
 
 ## SKILLS
 
--ArcGIS software
--ArcEditor data creation
--Map production
--Editing and COGO
+- ArcGIS software
+- ArcEditor data creation
+- Map production
+- Editing and COGO
 
--Pavement condition data
--Address match & geocoding techniques
--Vector property maps
--Documentations & reporting
+- Pavement condition data
+- Address match & geocoding techniques
+- Vector property maps
+- Documentations & reporting
 
--Quality improvement processes
--PostgreSQL
--Python, C
--PIX4D
+- Quality improvement processes
+- PostgreSQL
+- Python, C
+- PIX4D
 
 
 
