@@ -16,8 +16,8 @@ Professional GIS Analyst with nearly ten years of experience with ArcGIS softwar
 
 ## EXPERIENCE
 
-###GIS Systems Implementation Manager						01/03/2018 – Current
-##AST										Kiev, Ukraine
+### GIS Systems Implementation Manager						01/03/2018 – Current
+## AST										Kiev, Ukraine
 Participation in the development and implementation of enterprise geo-information portal. 
 Creation of a single enterprise GIS system with an analytical center and a single information base. 
 Optimization of the cadastral registration of the enterprise and the creation of a system for online control over the sown areas of the enterprise.
@@ -28,8 +28,8 @@ Complete special requests for various Agencies by utilizing existing data analyz
 Wrote custom tools using Python and SQL to automate database tasks and simplify data entry
 
 
-###GIS Analyst 								              6/06/2016 –01/03/2018
-##Drone.UA									Kiev, Ukraine
+### GIS Analyst 								              6/06/2016 –01/03/2018
+## Drone.UA									Kiev, Ukraine
 Perform implementation processing and quality assurance/control (on updated and new DC GIS data)
 Create translate and integrate GIS data layers and digitize new data using a variety of software
 Coordinate with other technicians and analysts in various data development and project support initiatives
@@ -38,8 +38,8 @@ Complete special requests for various Agencies by utilizing existing data analyz
 Wrote custom tools using Python and SQL to automate database tasks and simplify data entry
 
 
-###GIS Engineer									2/09/2015 – 1/06/2016
-##2GIS										Kiev, Ukraine
+### GIS Engineer									2/09/2015 – 1/06/2016
+## 2GIS										Kiev, Ukraine
 Ensured mapping software order fulfillment
 Designed developed tested and certified applications software and systems functionality
 Managed individual data and application development projects
@@ -48,8 +48,8 @@ Creation of digital maps and models, spatial and tabular analytics, statistical 
  Editing and support of digital maps and databases.
  
  
-###GIS Engineer									10/08/2014 – 1/12/2015
-##Transnavicom									Kiev, Ukraine
+### GIS Engineer									10/08/2014 – 1/12/2015
+## Transnavicom									Kiev, Ukraine
 Development of specialized GIS in the field of GPS navigation systems. 
 
 
