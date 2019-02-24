@@ -19,27 +19,7 @@
     position: fixed;
     width:50%;
 }
-#features {
-    width: 50%;
-    margin-left: 50%;
-    font-family: Tw Cen MT;
-    overflow-y: scroll;
-    background-color: #fafafa;
-}
-section {
-    padding:  25px 50px;
-    line-height: 25px;
-    border-bottom: 1px solid #ddd;
-    opacity: 0.25;
-    font-size: 20px;
-}
-section.active {
-    opacity: 1;
-}
-section:last-child {
-    border-bottom: none;
-    margin-bottom: 1000px;
-}
+
 </style>
 
 <div id='map'></div>
@@ -67,7 +47,46 @@ var chapters = {
         speed: 0.8,
         pitch: 60.00
     },
-    
+    'section1': {
+        bearing: 0,
+        center: [34.134814, 44.936496],
+        zoom: 6.00,
+        pitch: 0
+    },
+    'section2': {
+        center: [35.007231, 44.835023],
+        bearing: 54.40,
+        zoom: 14.59,
+        speed: 0.6,
+        pitch: 2.50
+    },
+    'section3': {
+        bearing: 12.80,
+        center: [34.091883, 44.950178],
+        zoom: 18.18,
+        speed: 0.6,
+        pitch: 0.00
+    },
+    'section4': {
+        bearing: 60,
+        center: [34.071662, 44.470424],
+        zoom: 14.57,
+        speed: 0.6,
+        pitch: 60
+    },
+    'section5': {
+        bearing: 15.20,
+        center: [33.882620, 44.748129],
+        zoom: 17.36,
+        pitch: 2.50,
+        speed: 0.6
+    },
+    'section6': {
+        bearing: 0,
+        center: [30.539313, 50.450106],
+        zoom: 12.53,
+        pitch: 0,
+        speed: 0.6
     },
 };
 // On every scroll event, check which element is on screen
