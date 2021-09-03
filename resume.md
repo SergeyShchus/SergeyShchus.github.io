@@ -16,7 +16,18 @@ Professional GIS Analyst with nearly ten years of experience with ArcGIS softwar
 
 ## EXPERIENCE
 
-### GIS Systems Implementation Manager, 03/2018 to present
+### Chief of GIS, 07/2020 to present
+AST, Kiev, Ukraine
+
+
+- GIS 
+- GIS
+- GIS
+
+
+
+
+### GIS Systems Implementation Manager, 03/2018 to 07/2020
 AST, Kiev, Ukraine
 
 
