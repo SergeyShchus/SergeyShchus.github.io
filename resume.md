@@ -17,7 +17,7 @@ Professional GIS Analyst with nearly ten years of experience with ArcGIS softwar
 ## EXPERIENCE
 
 ### Chief of GIS, 07/2020 to present
-AST, Kiev, Ukraine
+UKRLANDFARMING PLC, Kiev, Ukraine
 
 
 - GIS 
