@@ -38,7 +38,7 @@ a:visited {
 .portrait {
     float: right;
     margin: -10px 0 5px 10px;
-    opacity: 0.63;
+    opacity: 1;
 }
 p:last-child {
     margin-bottom: 0;
