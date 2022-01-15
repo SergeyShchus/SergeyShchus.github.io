@@ -8,6 +8,8 @@ tags:
   - Maps
 ---
 
+## Мапи у GIS PRO
+
 Beautiful ocean
 
 ![alt text](https://cdn-images-1.medium.com/max/2600/1*lflb1Pe5EgPTkUBiOeSlPQ.jpeg?raw=true)
@@ -20,3 +22,7 @@ Beautiful ocean
  - [Texture for the roughness of the ocean](https://adventuresinmapping.files.wordpress.com/2021/11/posterprint.jpg).
 
 Результат у повному розмірі, а також проект з Pro - [тут](https://github.com/SergeyShchus/GIS_PRO/tree/main/Beautiful%20ocean)
+
+
+
+
