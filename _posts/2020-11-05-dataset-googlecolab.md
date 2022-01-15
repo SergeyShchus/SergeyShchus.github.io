@@ -60,4 +60,4 @@ array(['TEKSTI', 'RYHMA', 'LUOKKA', 'TASTAR', 'KORTAR', 'KORARV', 'KULKUTAPA', '
 
     data.plot()
 
-    ![alt text](https://cdn-images-1.medium.com/max/1600/1*YDtmxmnrkkr37ji9RwD6Qg.png?raw=true)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*YDtmxmnrkkr37ji9RwD6Qg.png?raw=true)
