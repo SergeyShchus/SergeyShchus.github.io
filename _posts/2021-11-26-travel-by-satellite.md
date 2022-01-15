@@ -6,7 +6,6 @@ tags:
   - link
   - Post Formats
   - Satellite
-link: https://github.com
 ---
 
 Один з шляхів роботи з супутниковими знимками - використання доступу до хмарних ресурсів від Esri (ArcGIS Atlas).
