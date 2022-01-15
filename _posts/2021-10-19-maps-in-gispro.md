@@ -8,7 +8,7 @@ tags:
   - Maps
 ---
 
-# Мапи у GIS PRO
+
 
 ## Beautiful ocean
 
