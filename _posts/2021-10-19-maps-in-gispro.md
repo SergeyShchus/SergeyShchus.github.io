@@ -2,7 +2,7 @@
 title: "Мапи у GIS PRO"
 date: 2021-09-18T15:34:30-04:00
 categories:
-  - blog
+  - Blog
 tags:
   - GIS PRO
   - Maps
