@@ -1,29 +1,22 @@
 ---
-title: "Welcome to Jekyll!"
+title: "Мапи у GIS PRO"
 date: 2019-04-18T15:34:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - GIS PRO
+  - Maps
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Beautiful ocean
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![alt text](https://cdn-images-1.medium.com/max/2600/1*lflb1Pe5EgPTkUBiOeSlPQ.jpeg?raw=true)
 
-Jekyll also offers powerful support for code snippets:
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+Мапу зроблено в програмі GIS Pro. 
+Використано:
+ - [Oceans Vector layer](https://www.naturalearthdata.com/http/www.naturalearthdata.com/download/50m/physical/ne_50m_ocean.zip)
+ - [Vector layer of continents for an overview map](https://www.naturalearthdata.com/http/www.naturalearthdata.com/download/50m/physical/ne_50m_land.zip)
+ - [Texture for the roughness of the ocean](https://adventuresinmapping.files.wordpress.com/2021/11/posterprint.jpg).
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Результат у повному розмірі, а також проект з Pro - [тут](https://github.com/SergeyShchus/GIS_PRO/tree/main/Beautiful%20ocean)
