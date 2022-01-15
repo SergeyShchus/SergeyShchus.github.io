@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "Про мене"
 ---
 
 <div class="container">
