@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
+  - title: "Записи"
     url: /posts/
-  - title: "Categories"
+  - title: "Категорії"
     url: /categories/
-  - title: "Tags"
+  - title: "Ключові слова"
     url: /tags/
-  - title: "About"
+  - title: "Про мене"
     url: /about/
