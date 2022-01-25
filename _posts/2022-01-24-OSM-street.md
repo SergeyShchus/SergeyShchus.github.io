@@ -34,7 +34,7 @@ tags:
 
 Інсталюємо пакет та імпортуємо необхідне до Google Colab Notebook
 
---
+
     import matplotlib.pyplot as plt
     import numpy as np
     import osmnx as ox
@@ -53,7 +53,7 @@ tags:
 
 Знаходимо місцини, які хочемо переглянути та візуалізуємо для аналізу
 
---
+
     # download/model a street network for some city then visualize it
     G = ox.graph_from_place("Yaremche, Ukraine", network_type="drive")
     fig, ax = ox.plot_graph(G)
@@ -61,7 +61,7 @@ tags:
 
 Робимо перелік усіх місць для компанування на одній дошці
 
---
+
     # verify OSMnx geocodes each query to what you expect (i.e., a [multi]polygon geometry)
     gdf = ox.geocode_to_gdf(list(places.values()))
     gdf
@@ -69,7 +69,7 @@ tags:
 
 Та формуємо звіт, який зберігаємо у каталозі на Google drive
 
---
+
     # create figure and axes
     n = len(places)
     ncols = int(np.ceil(np.sqrt(n)))
