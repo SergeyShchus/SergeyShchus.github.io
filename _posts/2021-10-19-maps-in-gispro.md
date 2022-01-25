@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - GIS PRO
-  - Maps
+  - maps
 ---
 
 

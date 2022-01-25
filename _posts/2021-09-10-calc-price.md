@@ -3,9 +3,9 @@ title: "Аналітика в агро. Підрахунок збитків"
 categories:
   - Work
 tags:
-  - Post Formats
-  - notice
-  - Work
+  - агро
+  - підрахунок збитків
+  - work
   - agro
   - analytics
 ---

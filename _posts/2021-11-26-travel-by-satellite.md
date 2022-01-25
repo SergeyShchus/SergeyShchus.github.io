@@ -3,9 +3,9 @@ title: "Подорож по супутниковим знимкам"
 categories:
   - Blog
 tags:
-  - link
-  - Post Formats
-  - Satellite
+  - sentinel
+  - remote sensing
+  - satellite
 ---
 
 Один з шляхів роботи з супутниковими знимками - використання доступу до хмарних ресурсів від Esri (ArcGIS Atlas).

@@ -3,7 +3,7 @@ title: "Шлях до ArcGIS Pro. Посібник з початку робот
 categories:
   - Публікації
 tags:
-  - ArcGIS Pro
+  - GIS PRO
   - посібник
   - ГІС
   - GIS

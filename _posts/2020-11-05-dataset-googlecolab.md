@@ -1,10 +1,10 @@
 ---
 title: "Використання сторонніх датасетів в Google Colab"
 categories:
-  - Blog
+  - Notebooks
 tags:
-  - Post Formats
-  - Google colab
+  - notebook
+  - google colab
   - dataset
 ---
 
