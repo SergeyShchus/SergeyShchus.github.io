@@ -5,10 +5,8 @@ categories:
 tags:
   - GIS PRO
   - посібник
-  - ГІС
   - GIS
   - work
-  - робоче
 ---
 
 

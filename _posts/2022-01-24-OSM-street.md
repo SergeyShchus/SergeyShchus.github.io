@@ -4,8 +4,6 @@ categories:
   - Notebooks
 tags:
   - OSM
-  - street
-  - town
   - python
   - google colab
   - notebook

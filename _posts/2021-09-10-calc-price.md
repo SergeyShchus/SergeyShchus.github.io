@@ -3,8 +3,6 @@ title: "Аналітика в агро. Підрахунок збитків"
 categories:
   - Work
 tags:
-  - агро
-  - підрахунок збитків
   - work
   - agro
   - analytics
