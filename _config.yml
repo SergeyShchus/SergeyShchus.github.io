@@ -7,6 +7,9 @@ github_username: SergeyShchus
 minimal_mistakes_skin: default
 search: true
 
+header:
+  image: /assets/images/header_photo.jpeg
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
