@@ -63,7 +63,7 @@ author:
       url: "https://www.facebook.com/SergeyShchus"
 
 header:
-  image: /assets/images/header_photo.jpeg
+  image: https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/assets/images/header_photo.jpeg
 
 footer:
   links:
