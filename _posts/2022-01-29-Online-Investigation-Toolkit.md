@@ -1,5 +1,7 @@
 ---
 title: "Інструменти для досліджень у інтернеті та геопросторової аналітики"
+image: /pic/00000-toolkit.jpg
+permalink: toolkit
 categories:
   - Публікації
 tags:
@@ -7,7 +9,6 @@ tags:
   - GIS
   - work
 ---
-
 
 ![](https://github.com/SergeyShchus/Online-Investigation-Toolkit/blob/master/satellite-imagery-datasets/figures/header_img.jpg)  
 
