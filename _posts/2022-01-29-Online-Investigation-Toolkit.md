@@ -9,7 +9,7 @@ tags:
   - work
 ---
 
-![](https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/images/00000-toolkit.jpg?raw=true)  
+![](https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/pic/00000-toolkit.jpg?raw=true)  
 
 
 
