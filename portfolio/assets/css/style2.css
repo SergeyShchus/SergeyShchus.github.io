@@ -1,0 +1,167 @@
+#contact {
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.logInBox {
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 550px;
+	height: 700px;
+	padding: 10px;/*80px 40px; */
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.8);
+	border-radius: 10px;
+	margin-top: 415px;
+
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color:#efed40;
+	text-align: center;
+}
+
+form {
+	margin-top: 15px;
+}
+
+.title {
+	margin-top: -15px;
+	color: #1ff1ff;
+	opacity: 0.6;
+	margin-top: 20px;
+
+}
+
+.logInBox p
+{
+	margin:3px 0 3px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff; 
+}
+
+.logInBox input
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.logInBox input[type="email"],
+.logInBox input[type="text"]
+{
+	border:none;
+	border-bottom: 1px solid #1ff1ff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: #1ff1ff;
+	font-size: 18px;
+	opacity: 0.6;
+}
+
+::placeholder
+{
+	color: #1ff1ff;
+	opacity: 0.5;
+}
+
+.logInBox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+	background:#1ff1ff;/*#ff267e;*/
+		opacity: 0.5;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.logInBox button[type="submit"]:hover
+{
+background:#004;
+color: #fff;
+font-weight: bolder;
+border-radius: 5px ;
+}
+/*
+.logInBox a
+{
+	font-weight: bolder;
+	color: #1ff1ff;
+	font-size: 14px;
+	text-decoration: none;
+}*/
+
+#message {
+	height: 240px;
+	width: 477px;
+	background:transparent;
+	color: #1ff1ff;
+	font-size: 18px;
+}
+
+.submit {
+	width: 120px;
+	/*margin-top: -40px;*/
+	margin-bottom: 10px;
+	margin-top: -20px;
+	color:#fff;
+	background: linear-gradient(to bottom,#000, #1ff1ff);
+}
+
+textarea {
+	margin:3px 0 3px 0;
+	resize: none;
+	border-color: #1ff1ff;
+	opacity: 0.6;
+	min-width: 532px;
+
+}
+
+#go-left,.fa-quote-right {
+	color:#1ff1ff;
+	opacity: 0.7;
+	font-size: 40px;
+	margin-left: -450px;
+}
+
+
+
+#go-right,.fa-quote-left {
+	color:#1ff1ff;
+	opacity: 0.7;
+	font-size: 40px;
+	margin-right: -450px;	
+}
+
+.text-quote {
+	font-size: 20px;
+}
+
+.quote {
+	color:#1ff1ff;
+	font-size: 16px;
+}
+
+.scrollup {
+	float:right;
+	margin:-60px 0px 0 0 ;
+	font-size: 30px;
+	clear: both;
+	background-color: #1ff1ff;
+	opacity: 0.5;
+	padding:0 10px 0 10px;
+}
+
+.scrollup a:hover {
+	border: #000;
+}
