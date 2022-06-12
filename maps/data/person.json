@@ -1,0 +1,5 @@
+{
+    "name": {"firstname": "John", "lastname": "Smith"}, 
+    "age": 50, 
+    "eyecolor": "blue"
+}
