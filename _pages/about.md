@@ -13,6 +13,10 @@ title: ""
 
     <p>Data is everywhere in my work. Big data and small data. Satellite data, drone images or business analytics on sales charts. Meaning is everywhere!</p>
 
+    <ul>
+    <li><a href="https://sergeyshchus.github.io/portfolio/index.html">Here are some examples of my recent activities.</a></li>
+    </ul>
+
     <p>Now I'm translating agro into digital. We are deploying geoinformation portals. We make digital applications for business, which are for internal use, but like the following:</p>
 
     <ul>
