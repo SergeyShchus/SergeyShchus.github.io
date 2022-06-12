@@ -1,6 +1,6 @@
 ---
 title: "Інструменти для досліджень у інтернеті та геопросторової аналітики"
-image: /pic/00000-toolkit.jpg
+image: /images/ділянки.jpg
 categories:
   - Публікації
 tags:
