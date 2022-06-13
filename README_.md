@@ -1,1 +1,0 @@
-# SergeyShchus.github.io
