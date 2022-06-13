@@ -1,396 +1,1031 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />   
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Serhii Shchus</title>
-    <!-- BOOTSTRAP CORE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- IONICON STYLE SHEET FOR BEAUTIFUL ICONS -->
-    <link href="assets/css/ionicons.css" rel="stylesheet" />
-    <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
-    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
-    <!-- CUSTOM CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/style2.css" rel="stylesheet" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <!-- ANIMATED FONT AWESOME -->
-    <link rel="stylesheet" href="font-awesome-animation.min.css">
-    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!--link rel='shortcut icon' type='image/x-icon' href='assets/img/android-chrome-192x192.png' /-->
-</head>
-<!--body data-spy="scroll" data-target=".navbar-fixed-top">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/H-logo.png" type="image/png" />
+    <title>Hannah Yan's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/cacb60c650.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="vendors/animate-css/animate.css" />
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css" />
 
-    <!--div class="navbar navbar-default navbar-fixed-top scroll-me">
-        <!-- pass scroll-me class above a tags to starts scrolling -->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--a class="navbar-brand" href="#">
-                    <img src="assets/img/logo.png"  alt="Serhii Shchus"/>
-                </a-->
-            </div>
-            <!--div class="navbar-collapse collapse navbar-dark">
-                <ul id="navi" class="nav navbar-nav navbar-right">
-                    <li><a href="#header"><i class="fa fa-home"></i></i><span>Home</span></a></li>
-                    <li><a href="#services"><i class="fa fa-bullhorn"></i>About</a></li>
-                    <li><a href="#works"><i class="fa fa-thumbs-up"></i>Work</a></li>
-                    <li><a href="#team"><i class="fa fa-bookmark"></i>Blog</a></li>
-                    <li><a href="#contact"><i class="fa fa-phone-square"></i> Contact</a></li>
-                </ul>
-            </div-->
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-        </div-->
-    </div>
-    <!-- NAVBAR END  -->
-    <div id="header">
-        <div class="overlay">
-            <div class="container">
-                <div class="row scroll-me">
-                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 text-center ">
+  <body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-99126974-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-                        <h1 data-scroll-reveal="enter from the bottom after 0.2s">GIS <br/> & <br>DATA
-                        </h1>
-
-                        <h4 id="intro-text" data-scroll-reveal="enter from the bottom after 0.4s">I work with data and maps. I am passionate about making data work for business. I am sure that any data can be tied to a point on the earth's surface.    <a href="#services" style="text-decoration:none">About me</a>, or find out why you should <a href="#works" style="text-decoration:none">hire me</a>.
-
-                        </h4>
-                        <!--a data-scroll-reveal="enter from the bottom after 0.6s" href="https://buymeacoff.ee/pokoyoyo" class="btn set-bk-clr">Buy Me Coffee!</a>
-                        <a data-scroll-reveal="enter from the bottom after 0.6s" href="#contact" class="btn set-bk-clr">Contact Me!</a-->
-                        
-                        <!-- Paypal Donate Button -->
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--HEADER SECTION END  -->
-    <section id="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <h2 class="about"><strong>ABOUT ME</strong></h2>
-                <p class="aboutPara">A professional Data Engineer with extensive experience working with data with a focus on GIS, as well as Editor data creation/editing tools and georeferencing tolerances. Experience in various stages of the data pipeline, including queries, integrations, ODS, and real-time data marts. Continuously looks at ways to add value to take the initiative in improving processes and identifying business opportunities. An evangelist of geographic information systems, I believe that 90% of the data can be displayed on a map.</p>
-
-                </div>
-            </div>
-            <div class="row text-center pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-                <div class="col-md-3">
-                    <!-- <i class="ion-ios-cloud-outline"></i> -->
-                    <img id="service1" src="assets/img/arcgis.png" alt="esri" width="100" height="100">
-                    <h4><strong>ESRI</strong></h4>
-                    <em>GeoInformation System</em> (GIS) I use this software for geoanalysis and data referencing to the earth's surface.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-card"></i> -->
-                    <img id="service2" src="assets/img/enterprise.png" alt="enterprise" width="100" height="100">
-
-                    <h4><strong>ArcGIS Enterprise </strong></h4>
-                    <em>Geospatial platform</em> I use the same server software to encourage enterprise GIS ecosystems.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-speedometer"></i> -->
-                    <img id="service3" src="assets/img/qgis.png" alt="QGIS" width="100" height="100">
-                    <h4><strong>QGIS</strong></h4>
-                    I use this open source software to work with geodata.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-ios-settings"></i> -->
-                    <img id="service4" src="assets/img/geoserver.png" alt="Geoserver"  width="150" height="100">
-                    <h4><strong>Geoserver</strong></h4>
-                    What corporate services do not do without.</p>
-                </div>
-            </div>
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.6s">
-                <div class="col-md-3">
-                    <!-- <i class="ion-ios-chatboxes-outline"></i> -->
-                    <img id="service5" src="assets/img/python.png" alt="Python" width="120" height="100">
-                    <h4><strong>PYTHON</strong></h4>
-                    I use python to search, download, process, analyze and visualize data.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-speedometer"></i> -->
-                    <img id="service3" src="assets/img/js.png" alt="Javascrip">
-                    <h4><strong>JAVASCRIPT</strong></h4>
-                    I use JavaScript language for scripting HTML elements and the Web.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-ios-browsers-outline"></i> -->
-                    <img id="service7" src="assets/img/aws.png" alt="AWS" width="100" height="100">
-                    <div id="content">
-                        <h4><strong>AWS Services</strong></h4>
-                        <p>Most of the data in the work is always in the cloud. That's why cloud services (and not just Amazon) are an integral part of the job.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                   <!--  <i class="ion-ios-people-outline"></i>
- -->                    <img id="service8" src="assets/img/sql.png" alt="SQL"  width="120" height="120">
-                    <h4><strong>SQL</strong></h4>
-                        <p>I use relational databases to store and analyze information.</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- <i class="ion-speedometer"></i> -->
-                    <img id="service9" src="assets/img/pentaho.png" alt="Pentaho" width="90" height="90">
-                    <h4><strong>Pentaho</strong></h4>
-                    <p>I use this software to write ETL processes.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SERVICES SECTION END  -->
-  
-    <section id="works">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <h2 class="work"><strong>WORK PORTFOLIO</strong></h2>
-                    The following are some of the projects that I have been working on. From client based to personal projects.
-
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-12 pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <div class="caegories">
-                        <a href="#" data-filter="*" class="active btn btn-info btn-sm">All</a>
-                        <a href="#" data-filter=".data" class="btn btn-info btn-sm">DATA</a>
-                        <a href="#" data-filter=".gis" class="btn btn-info btn-sm">GIS</a>
-                        <a href="#" data-filter=".agro" class="btn btn-info btn-sm">Agro</a>
-                        <a href="#" data-filter=".ua" class="btn btn-info btn-sm">Ukraine</a>
-                        <a href="#" data-filter=".script" class="btn btn-info btn-sm">MORE</a>
-                    </div>
-
-                </div>
-            </div>
-
-            <figure>
-            <div class="row text-center" id="portfolio-div" >
-
-                <div class="col-md-4 col-sm-4 gis">
-                    
-                    <div class="work-wrapper">
-
-                        <a class="fancybox-media" title="Portfolio theme" href="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/msoa_lfb.png?raw=true" width="600" height="600">
-                            
-                            <a href="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/msoa_lfb.png?raw=true" target="_blank"><img src="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/msoa_lfb.png?raw=true" class="img-responsive " alt="" /></a>
-                        </a>
-                        <figcaption>Сен-Тропе и его форт в
-                            вечернем солнце</figcaption>
-
-                    </div>
-                    
-                </div>
-            </figure>
-
-
-
-                <div class="col-md-4 col-sm-4 gis">
-                    <div class="work-wrapper">
-
-                        <a class="fancybox-media" title="Image Title Goes Here" href="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/Kyiv_residental_map_prev1.JPG?raw=true">
-
-                            <a href="https://sergeyshchus.github.io/maps/Kyiv_residental_map.html" target="_blank"><img src="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/Kyiv_residental_map_prev1.JPG?raw=true" class="img-responsive " alt="" /></a>
-                        </a>
-                        <figcaption>Посмотрите как прекрасен мир без VR- очков</figcaption>
-                    </div>
-                </div>
-                <!--Added by Brian as a test-->
-
-
-                <div class="col-md-4 col-sm-4 data">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="JSON reader" href="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/json_prev.png?raw=true">
-
-                            <a href="https://sergeyshchus.github.io/maps/Перегляд%20Json.html" target="_blank"><img src="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/json_prev.png?raw=true" class="img-responsive " alt="" /></a>
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-sm-4 script">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Beautiful ocean" href="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/Beautiful_ocean_prev.jpeg?raw=true">
-
-                            <a href="https://sergii-shchus.medium.com/gis-pro-535f8073e048" target="_blank"><img src="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/Beautiful_ocean_prev.jpeg?raw=true" class="img-responsive " alt="" /></a>
-                        </a>
-
-                    </div>
-                </div>
-
-                <figure>
-                    <p><img class=scaled src="https://github.com/SergeyShchus/SergeyShchus.github.io/blob/master/maps/prev/Beautiful_ocean_prev.jpeg?raw=true"
-                      alt="Сен-Тропе">
-                    <figcaption>Сен-Тропе и его форт в
-                      вечернем солнце</figcaption>
-                </figure>
-                
-
-            </div>
-        </div>
-    </section>
-    <div id="testimonial" data-scroll-reveal="enter from the bottom after 0.2s">
-        <div class="overlay">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-                        <!-- <i class="ion-ios-drag clr-set f-big"></i> -->
-                            <i id="go-left" class="fa fa-quote-left fa-flip-horizontal"></i>
-                            <i id="go-right" class="fa fa-quote-left"></i>
-                        <br/>
-                        <p>
-                            <span class="text-quote"> The world is one big data problem.</span><br> <span  class="quote"> < Andrew McAfee></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- WORK SECTION END  -->
-
-    <!--section id="team">
-        <div class="container">
-
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
-                <div class="col-md-6 col-md-offset-3 pad-bottom">
-                    <h2 class="team"><strong>Recent Blog Posts- <a href="https://medium.com/@brian_99211" target="_blank">Medium</a></strong></h2>
-                </div>
-            </div>
-            <div class="row pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <h3 class="card-title">Hello, World!</h3>
-                            <small class="text-muted ">Written by <a href="https://medium.com/@brian_99211" target="_blank"><strong>Brian Mwevi</strong></a> on Feb 13</small>
-                        </div>      
-                        <div class="card-body">
-                            <img src="assets/img/hello.jpg" width="350px" alt=""/>
-                            <p class="text-muted">Photo by <a href="https://unsplash.com/photos/FiZTaNTj2Ak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Benjamin Davies</a> on <a href="https://unsplash.com/search/photos/world?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></p>
-                            <p class="card-text bg-secondary">Hello people of Medium. My name is Brian Mwevi, currently on apprenticeship at <a href="https://www.tunapanda.org/" target="_blank">Tunapanda Institute</a>, Nairobi Kenya. I’m a Web developer, a learner and a volunteer when it comes to improving our society.<br><br> I’m deeply interested in solving problems through Entrepreneurship and Technology. We have lots of opportunities out there but we fail to utilize them. Equipping ourselves with adequate skills in Entrepreneurship provides a proper solution on how to utilize these opportunities using...</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-info text-white"><a href="https://medium.com/tunapanda-institute/hello-world-a5cbe43b168d" target="_blank">Read More>></a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <h3 class="card-title">8 steps to publishing your portfolio on GitHub</h3>
-                            <small class="text-muted ">Written by <a href="https://medium.com/@brian_99211" target="_blank"><strong>Brian Mwevi</strong></a> on May 2, 2017</small>
-                        </div>      
-                        <div class="card-body">
-                            <img src="assets/img/portfolio1.jpg" width="350px" alt=""/>
-                            <p class="text-muted"><span>Photo by <a target="_blank" href="https://unsplash.com/@_imkiran?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sai Kiran Anagani</a> on <a target="_blank" href="https://unsplash.com/s/photos/coding-portfolio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
-                            <p class="card-text bg-secondary">A portfolio is a way in which you showcase your work samples for the skills that are stated by your Curriculum Vitae (CV). Having it online is an added advantage since anyone from all over the world is able to see it by just clicking on your portfolio’s link.<br> GitHub is a web-based platform for version control using git. It is also where users can collaborate on or adopt open-source projects, fork code, share ideas and more. On the other hand, Git is a distributed open-source version control system...</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-info text-white"><a href="https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84" target="_blank">Read More>></a></button>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </section-->
-    <!-- Edited by Brian, a CONTACT SECTION of my choice-->
-    <section id="contact" class="self-align-center">
-        <div class="container">
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
-              <div class="col-9 text-center"> 
-                   <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 text-center">
-                        <!--h1 class="title ">CONTACT ME</h1>
-                      	
-                        <h4 id="intro-text" data-scroll-reveal="enter from the bottom after 0.4s">   Please write to me in any messenger below or by mail if you are interested in my work. I will be glad to cooperate
-                       
-                        </h4-->
-                        
-                    </div>
-               </div>     
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p class="social">
-            
-            <!-- Donate Button -->
-
-            
-            <a href="https://www.facebook.com/SergeyShchus" class="external facebook " data-animate-hover="shake" data-animate="fadeInUp"  target="_blank" class="fb"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/sergey.shchus/" class="external instagram" data-animate-hover="shake" data-animate="fadeInUp" target="_blank" ><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/SergiiShchus?lang=en" target="_blank"  class="external twitter" data-animate-hover="shake" data-animate="fadeInUp"><i class="fab fa-twitter"></i></a>
-            <a href="mailto:sergey.shchus@gmail.com" target="_blank" class="email" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-envelope faa-horizontal"></i></a>
-        </p>
-        &copy; 2022 Sergeyshchus.github.io/ | by<a href="https://sergeyshchus.github.io/"> <strong class="owner">Serhii Shchus</strong></a>
-    </footer>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
-
-    
-
-
-
-    <!--FOOTER SECTION END  -->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  SCRIPTS -->
-
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'blue',
-          layout: 'vertical',
-          label: 'paypal',
-          
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '1'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
+      function gtag() {
+        dataLayer.push(arguments);
       }
-  }).render('#paypal-button-container');
-</script>
-    <script src="assets/js/jquery-1.11.1.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
-    <script src="assets/js/bootstrap.js"></script>
-    <!-- SCROLLING SCRIPTS PLUGIN  -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <!--  FANCYBOX PLUGIN -->
-    <script src="assets/js/source/jquery.fancybox.js"></script>
-    <!-- ISOTOPE SCRIPTS -->
-    <script src="assets/js/jquery.isotope.js"></script>
-     <!-- SCROLL ANIMATIONS  -->
-    <script src="assets/js/scrollReveal.js"></script>
-    <!-- CUSTOM SCRIPTS   -->
-    <script src="assets/js/custom.js"></script>
+      gtag("js", new Date());
 
-</body>
+      gtag("config", "UA-99126974-1");
+    </script>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="index.html"
+              ><img src="img/H-logo.png" width="80px" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#abt-me">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-me">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================Header Menu Area =================-->
+
+    <!--================ Start Portfolio Area =================-->
+    <section class="section_gap portfolio_area" id="work">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="main-title">
+              <h1>Hannah Yan Han</h1>
+              <p>
+                Hello! Glad to see you here. This is a collection of my personal
+                projects made during free time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="projects_fillter">
+              <ul class="filter list">
+                <li class="active" data-filter="*">All Categories</li>
+                <li data-filter=".viz">Data Visualization</li>
+                <li data-filter=".ccode">Creative Coding</li>
+                <li data-filter=".ds">Data Science</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="projects_inner row grid">
+          <div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
+
+          <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/dataviz.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/the-state-of-data-visualization-6de999f9e386"
+                >
+                  <h4>The State of Data Visualization</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/drinks.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/towards-data-science/preferences-of-drinks-around-the-world-36f37de0394"
+                >
+                  <h4>Countries by Drinking Habits</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 work grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/happiness2-min.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/in-pursuit-of-happiness-part-ii-e471a54f294e"
+                >
+                  <h4>Happiness by Regions</h4>
+                </a>
+                <p>(Made in Tableau, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/meteorites.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/towards-data-science/getting-to-know-the-meteorites-ef4a6a04290c"
+                >
+                  <h4>Getting to Know the Meterorites</h4>
+                </a>
+                <p>(Made in Tableau, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/flight.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/when-flying-gets-dangerous-part-2-c67b90371ffc"
+                >
+                  <h4>When Flying Gets Dangerous</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img class="img-fluid w-100" src="img/gallery/moma.png" alt="" />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/towards-data-science/moma-and-its-artwork-in-data-60925c8acb7a"
+                >
+                  <h4>MOMA and its Artworks in Data</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img class="img-fluid w-100" src="img/gallery/bike.png" alt="" />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/visualizing-bike-routes-1ce455643db9"
+                >
+                  <h4>SF Bike Traffic</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/missingmigrant.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/towards-data-science/missing-migrants-24254bc82474"
+                >
+                  <h4>
+                    What happened to the missing migrants and who are they
+                  </h4>
+                </a>
+                <p>(Made in Carto & Odyssey.js, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/nyt_bestseller.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/judge-a-nyt-bestseller-by-its-cover-4db84d76825d"
+                >
+                  <h4>Judge a NYT Bestseller by its Cover</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/recipe_nutrient.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/searching-for-the-secret-ingredient-of-good-recipes-205d4537f11e"
+                >
+                  <h4>How healthy is the meal: an analysis of recipe data</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/google_trend_data.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/towards-data-science/where-people-are-most-interested-in-data-visualization-and-data-science-16079ad706e0"
+                >
+                  <h4>
+                    Where People Are Most Interested in Data Science and Data
+                    Viz According to Google Trends
+                  </h4>
+                </a>
+                <p>(Made in Tableau, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img class="img-fluid w-100" src="img/gallery/lego.png" alt="" />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/the-color-history-of-lego-bricks-1e83ffea7b6d"
+                >
+                  <h4>The Color History of Lego</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/ted_cosmos.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://towardsdatascience.com/the-occupation-of-ted-speakers-4df1829c5ac7"
+                  title=""
+                  class="box-masonry-image with-hover-overlay with-hover-icon"
+                >
+                  <h4>The Hyphenated Occupation of TED Speakers</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/superfluous_holiday.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://towardsdatascience.com/the-complete-guide-to-superfluous-holidays-7be26f0a86db"
+                >
+                  <h4>The Complete Guide to Superfluous Holidays</h4>
+                </a>
+                <p>(Made in Tableau, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/education_by_tier.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/analyze-world-education-expenditure-c0f7abbf2a72"
+                >
+                  <h4>World Education Expenditure</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/migration.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://towardsdatascience.com/analyse-the-migration-of-scientific-researchers-5184a9500615"
+                >
+                  <h4>The Flux of Academic Migration</h4>
+                </a>
+                <p>(Made in R, 2017)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/noodle.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/the-secret-life-of-instant-noodles-471ca3a34ef1"
+                >
+                  <h4>The Secret Life of Instant Noodles</h4>
+                </a>
+                <p>(Made in Flourish, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/historicalinfluencer.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/visualizing-historical-influencers-fb768e787663"
+                >
+                  <h4>Visualizing historical influencers</h4>
+                </a>
+                <p>(Made in Tableau, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img class="img-fluid w-100" src="img/gallery/rice.png" alt="" />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/where-does-rice-come-from-274e7dc2e531"
+                >
+                  <h4>Where does rice come from</h4>
+                </a>
+                <p>(Made in D3.js, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/culturalcapital.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/in-search-of-the-cultural-capitals-f6ddddd7f310"
+                >
+                  <h4>In Search of Cultural Capitals</h4>
+                </a>
+                <p>(Made in Carto, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/cherryblossom.webp"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/mapping-cherry-blossom-2926a44fc9b1"
+                >
+                  <h4>Where to View Cherry Blossom</h4>
+                </a>
+                <p>(Made in Tableau, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/lyricrepetitiveness.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/a-microscopic-view-of-song-repetitiveness-861141a4d65c"
+                >
+                  <h4>A Microscopic View of Lyric Repetitiveness</h4>
+                </a>
+                <p>(Made in R, 2018)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/dataprivacy.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/the-chain-of-data-breach-incidents-2a98658c9db3"
+                >
+                  <h4>Has Data Breaches Spiraled out of Control</h4>
+                </a>
+                <p>(Made in D3.js, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/toughsports.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://medium.com/@yanhann10/which-sport-is-the-toughest-of-it-all-2749688fbfc3"
+                >
+                  <h4>Which Sport is the Toughest of Them All</h4>
+                </a>
+                <p>(Made in R, 2018)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/crossSection.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <!-- <a href="portfolio-details.html">
+                <h4></h4>
+              </a> -->
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/feathers.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a href="portfolio-details.html">
+                  <h4></h4>
+                </a>
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/rotatingfan.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <!-- <a href="portfolio-details.html">
+                <h4></h4>
+              </a> -->
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/sound_flowers_spotify.jpg"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/making_waves.gif"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/reversibletime.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2019)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/flow3x3-min.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <a href="https://medium.com/@yanhann10/flowfields-268d6218ac3b">
+                  <h4>Flow fields</h4>
+                </a>
+                <p>(Made in p5.js, 2020)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/moire.webp"
+                alt=""
+              />
+              <div class="projects_text">
+                <a
+                  href="https://github.com/yanhann10/creative_coding/tree/master/p5"
+                >
+                </a>
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/unicorn-turbine.webp"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in R, 2020)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/pixel_landscape-min.jpg"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in Processing, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/triMesh-min.jpg"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/s_quest_web.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/tempest_unicolor.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in R, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/hopalong_attractor-min.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in D3.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/monumental_shift.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/vqgan+clip.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in python with VQGAN+CLIP, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/cities_in_blue_hannahyan.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in python with VQGAN+CLIP, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/parallel_universe.gif"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in python, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/self_imposed_maze-min.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/ad_infinitum.gif"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/HnV.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/yellowblock.jpeg"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/catabolism0.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/chroma.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/movin76.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2021)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/thebox.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2022)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/watercolor_mountain.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2022)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ccode grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/stackedthoughts.png"
+                alt=""
+              />
+              <div class="projects_text">
+                <p>(Made in p5.js, 2022)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ds grid-item">
+            <div class="projects_item">
+              <img
+                class="img-fluid w-100"
+                src="img/gallery/creativecode/spiral2.webp"
+                alt=""
+              />
+              <div class="projects_text">
+                <a href="ds-projects.html">
+                  <h4>View more projects</h4>
+                </a>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Portfolio Area =================-->
+
+    <!--================ Start About Area =================-->
+    <section class="about-area section_gap gray-bg" id="abt-me">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-4 about-left">
+            <img class="img-fluid" src="img/profile.jpg" alt="" />
+          </div>
+          <div class="col-lg-7 col-md-12 about-right">
+            <div class="main-title text-left">
+              <h1>about me</h1>
+            </div>
+            <div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+              <p>
+                I currently work as a data scientist. Previously I went to
+                National University of Singapore, EPFL and Duke University.
+              </p>
+              <p>
+                Besides data science and data storytelling, I also like
+                contemporary art and travelling.
+              </p>
+              <p>
+                Having lived in China, Singapore, Switzerland and the United
+                States, I understand English, Chinese and French.
+              </p>
+              <p>
+                I have given talks and workshops such as Introduction To
+                Visualization for Women Who Code and Drawing with Data Workshop
+                at Airbnb APAC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End About Area =================-->
+
+    <!--================ Start Footer Area =================-->
+    <footer class="footer_area section_gap" id="contact-me">
+      <div class="container">
+        <div class="row footer_inner justify-content-center">
+          <div class="col-lg-6 text-center">
+            <aside class="f_widget social_widget">
+              <div class="f_title">
+                <h4>Work With Me</h4>
+              </div>
+              <ul class="list">
+                <li>
+                  <a href="https://www.linkedin.com/in/hannahyan/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/hannahyan"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@yanhann10"
+                    ><i class="fab fa-medium"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/yanhann10"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://dev.to/hannahyan"
+                    ><i class="fab fa-dev"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://hannahyan.substack.com/"
+                    ><img class='icon-substack' src=img/brands/substack.svg
+                    alt='substack icon' width="30" ></a
+                  >
+                </li>
+              </ul>
+            </aside>
+            <div class="copyright">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fab fa-heart-o" aria-hidden="true"></i>
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
 </html>
